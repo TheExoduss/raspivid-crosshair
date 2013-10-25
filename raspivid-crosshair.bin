@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+raspivid -t 0 &
+./hello_dispmanx1.bin &
+./hello_dispmanx.bin &
